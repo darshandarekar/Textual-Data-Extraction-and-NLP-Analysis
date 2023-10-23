@@ -15,6 +15,8 @@ This project involves web scraping and text analysis to extract valuable insight
 
 Install the required Python libraries by running
      ```bash
+     
      pip install requests beautifulsoup4 pandas nltk
+     
      ```
 
