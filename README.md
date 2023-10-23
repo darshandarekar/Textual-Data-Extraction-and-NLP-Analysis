@@ -7,7 +7,7 @@ This project involves web scraping and text analysis to extract valuable insight
 ## Requirements
 
 - Python
-= Libraries: requests, BeautifulSoup, pandas, nltk
+- Libraries: requests, BeautifulSoup, pandas, nltk
 - Additional files: Input.xlsx, Output Data Structure.xlsx, StopWords, MasterDictionary
 - Data storage: 'TitleText' directory
 
@@ -17,4 +17,13 @@ This project involves web scraping and text analysis to extract valuable insight
      ```bash
      pip install requests beautifulsoup4 pandas nltk
      ```
+- Ensure the availability of the 'Input.xlsx', 'Output Data Structure.xlsx', 'StopWords' directory, and 'MasterDictionary'.
+- Create a 'TitleText' directory for storing extracted text.
+
+## Usage
+
+- Execute the provided Python script to scrape web content, process text, and perform text analysis.
+- The results are stored in the 'Output.csv' file, including metrics like average sentence length, complexity, sentiment scores, and more.
+
+
 
